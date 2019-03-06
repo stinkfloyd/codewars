@@ -1,6 +1,5 @@
 function longest(s1, s2) {
   // your code
-  if (s1 === s2) return s1
   let unique = {}
   let longest = ''
   s1.split('').forEach((letter) => {
